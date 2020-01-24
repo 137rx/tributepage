@@ -1,0 +1,63 @@
+* {
+    font-family:"Fira Sans', sans-serif;"
+
+  }
+  
+header, body {
+  padding: 20px;
+  margin: 25px;
+}
+
+header {
+  background-color: lightblue;
+}
+ header p {
+   float: right;
+   border: thin grey solid;
+   font-style: italic;
+   font-size: 20px;
+ }
+
+ header h1 {
+   float: right;
+   padding: 5%;
+ }
+
+img {
+  border-radius: 50%;
+  width: 15%;
+  max-width: 50%;
+  height: auto;
+  float: center;
+  border: 5px rgb(141, 55, 55) solid;
+}
+
+#img-caption {
+  float: bottom;
+}
+
+main {
+  font-display: auto;
+  font-size: medium;
+  text-align: center;
+  color: rgb(4, 4, 49);
+  height: 250px;
+}
+
+main p::first-letter {
+  font-size: 200%;
+  color: rgb(94, 7, 7);
+}
+
+a:hover {
+  color: rgb(7, 70, 7)
+}
+
+
+footer {
+  position: fixed;
+  float: bottom;
+  background-color: rgb(233, 227, 227);
+  font-style: bold;
+  width: 100%
+}
